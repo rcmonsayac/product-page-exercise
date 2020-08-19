@@ -205,3 +205,28 @@ a.icon{
     font-size: 1rem;
   } 
 }
+
+
+
+.footer-copyright{
+  text-align: center;
+  padding: 20px;
+}
+.page-footer{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+
+}
+.list-inline-item{
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.details{
+  font-size: 13px;
+  line-height: 1.8;
+  padding-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
