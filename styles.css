@@ -148,7 +148,7 @@ a.icon{
 .product-info-container {
   width: 100%;
   font-family: 'Lato', sans-serif;
-  background: url('https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg') no-repeat center center fixed;
+  background: url('./img/product-info-bg.jpg') no-repeat center center fixed;
   background-size: cover;
   padding: 200px 100px;
 }
@@ -223,7 +223,7 @@ a.icon{
 .contact-info-container {
   width: 100%;
   font-family: 'Lato', sans-serif;
-  background: url('https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top.jpg') no-repeat center center fixed;
+  background: url('./img/contact-info-bg.jpg') no-repeat center center fixed;
   background-size: cover;
   padding: 200px 100px;
 }
@@ -381,4 +381,29 @@ a.icon{
     padding: 10px 10px;
   }
 
+}
+
+
+
+.footer-copyright{
+  text-align: center;
+  padding: 20px;
+}
+.page-footer{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+
+}
+.list-inline-item{
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.details{
+  font-size: 13px;
+  line-height: 1.8;
+  padding-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
