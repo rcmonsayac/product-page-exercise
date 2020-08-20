@@ -145,43 +145,131 @@ a.icon{
   cursor: pointer;
 }
 
-
-.product-info {
+.product-info-container {
   width: 100%;
   font-family: 'Lato', sans-serif;
-  background: url('./img/3511744.png') no-repeat center center fixed;
+  background: url('https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg') no-repeat center center fixed;
   background-size: cover;
+  padding: 200px 100px;
 }
 
-.product-info-container {
+.product-info {
   display: flex;
+  color: #ffffff;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+  color: #ffffff;;
+  width: 50%;
+}
+
+.product-info-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column ;
+  width: 50%;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.product-info-title h1{
+  font-size: 50px;
+  padding: 10px 10px;
+  line-height: 50px;
+}
+
+
+.product-info-header {
   text-align: center;
   color: #ffffff;
 }
 
-.product-info-header {
-  text-align: center;
-  color: #bf834e;
-}
-
 .product-info-card {
   margin: 10px;
-  padding: 10px;
-  background-color: #bf834e;
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  /* background-color: #bf834e; */
   border-radius: 10px;
   opacity: 0.9;
   min-width: 30%;
+  
 }
 
 .product-info-details {
   margin-bottom: 10px;
+  line-height: 10px;
+}
+
+.product-info-details {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.product-info-details p{
+  line-height: 10px;
 }
 
 .product-info-icon {
   color: #ffffff;
   margin-right: 5px;
 
+}
+
+.contact-info-container {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  background: url('https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 200px 100px;
+}
+
+.contact-info {
+  color: #bf834e;
+}
+
+.contact-info-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column ;
+  width: 100%;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-info-title h1{
+  font-size: 50px;
+  padding: 10px 10px;
+}
+
+.contact-details-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+}
+
+.contact-info-card {
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  /* background-color: #bf834e; */
+  border-radius: 10px;
+  opacity: 0.9;
+  min-width: 30%;
+  color: #000000;
+  
+}
+
+.contact-info-icon {
+  font-size: 40px;
+  color: inherit;
 }
 
 /* media queries  */
@@ -234,14 +322,45 @@ a.icon{
   }
 
   .product-info-container {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    text-align: center;
-    color: #ffffff;
-    margin: 10px 20px;
+    padding: 100px 100px;
   }
 
+  .product-info {
+    flex-direction: column;
+  }
+
+  .product-info-title, .product-details-container {
+    width: 100%;
+  }
+
+  .product-info-title h1{
+    margin-bottom: 0;
+  }
+  .product-info-title h3{
+    margin-bottom: 10px;
+    padding: 10px 30px;
+  }
+
+  .product-info-card {
+    margin-bottom: 30px;
+    
+  }
+
+  .contact-details-container {
+    flex-direction: column;
+  }
+
+  .contact-info-card h1{
+    margin-bottom: 15px;
+  }
+
+  .contact-info-title h1 {
+    margin-bottom: 15px;
+  }
+
+  .contact-info-container{
+    padding: 100px 100px;
+  }
 }
 
 @media screen and (max-width:600px) {
