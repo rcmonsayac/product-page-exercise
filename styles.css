@@ -374,5 +374,11 @@ a.icon{
     font-size: 1rem;
   } 
 
+  .product-info-container, .product-info-title{
+    padding: 10px 10px;
+  }
+  .contact-info-container{
+    padding: 10px 10px;
+  }
 
 }
