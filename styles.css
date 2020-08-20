@@ -103,7 +103,7 @@ a.icon{
     border-radius: 5px;
     border: 1px solid #bf834e;
     margin: 2rem auto;
-
+  
     font-size: 1rem;
 }
 .btn:hover {
@@ -190,88 +190,6 @@ a.icon{
   text-align: justify;
 }
 
-/* product start */
-/* .product-info-container {
-  width: 100%;
-  font-family: 'Lato', sans-serif; */
-  /* background: url('./img/product-info-bg.jpg') no-repeat center center fixed; */
-  /* background-size: cover; */
-/* 
-  padding: 13rem;
-  height: 100%;
-} */
-
-/* .product-info {
-
-  color: #ffffff;
-  flex-direction: row ;
-  margin-bottom: 5rem;
-} */
-
-/* .product-details-container { 
-  display: flex;
-  align-items: center; 
-   justify-content: space-around; 
-   text-align: center;
-  color: #ffffff;;
-   width: 100%; 
-  height: 800px
-}*/
-
-/* .product-info-container .info-img{
-  float: left;
-  width: 50%;
-  background: url('./img/photo-1573238886401-9372349b3366.jpeg') ;
-  min-height: 100%;
-} */
-
-
-/* .product-info-title h1{
-  
-  padding: 10px 10px;
-  line-height: 50px;
-} */
-
-
-/* .product-info-header {
-  text-align: center;
-  color: #ffffff;
-} 
-
-.product-info-card {
-   margin: 10px;
-  margin-bottom: 30px;
-  padding: 10px 40px; 
-   background-color: #bf834e; 
-  border-radius: 10px;
-  opacity: 0.9;
-  min-width: 30%;
- flex-direction: row;  
- margin-right: 30px;
-}*/
-
-/* .product-icon i{
-  font-size: 20px;
-}
-.product-info-details {
-  margin-bottom: 10px;
-  line-height: 10px;
-}
-
-.product-info-details {
-  margin-bottom: 10px;
-  line-height: 25px;
-}
-
-.product-info-details p{
-  line-height: 10px;
-}
-
-.product-info-icon {
-  color: #ffffff;
-  margin-right: 5px;
-
-} */
 
 #contact-info-container {
   width: 100%;
@@ -280,9 +198,6 @@ a.icon{
   padding: 5rem ;
 }
 
-/* .contact-info {
-  color: #a67041;
-} */
 
 .contact-info-title {
   text-align: center;
@@ -310,10 +225,7 @@ a.icon{
 .contact-info-card {
   margin: 10px;
   margin-bottom: 30px;
-
   padding: 10px 5px;
-  /* border-radius: 10px; */
-  /* opacity: 0.9; */
   width: 33.3%;
   color: #000000;
   
@@ -379,13 +291,17 @@ a.icon{
   font-size: 1rem;
   border-radius: 0;
   outline: 0;
-  -webkit-appearance: none;
 }
 
 input[type="search"] {
   flex-basis: 500px;
 }
 
+.page-footer{
+  text-align: center;
+  padding: 20px;
+
+}
 
 
 /* media queries  */
@@ -403,14 +319,19 @@ input[type="search"] {
     color: #bf834e;
   }
 
-  h1 {
-    font-size: 2rem;
-
+  .cover-info h1{
+    font-size: 42px;
+    font-weight: 200;
   }
-  h1,
+
   .cover-info p{
-    margin-bottom: 2rem;
+
     line-height: 1.6;
+    font-size: 16px;
+  }
+
+  .cover-btn{
+    margin: 0 auto;
   }
 
   .cover {
@@ -437,31 +358,6 @@ input[type="search"] {
     margin-bottom: 5rem;
   }
 
-  /* .product-info-container {
-    padding: 100px 100px;
-  }
-
-  .product-info {
-    flex-direction: column;
-  }
-
-  .product-info-title, .product-details-container {
-    width: 100%;
-  }
-
- 
-  .product-info-title h1{
-    margin-bottom: 0;
-  }
-  .product-info-title h3{
-    margin-bottom: 10px;
-    padding: 10px 30px;
-  }
-
-  .product-info-card {
-    margin-bottom: 30px;
-    
-  } */
   .info-img{
     display: none;
   }
@@ -495,7 +391,13 @@ input[type="search"] {
   }
 }
 
-@media screen and (max-width:600px) {
+@media all and (max-width:600px) {
+  header{
+    padding: auto;
+  }
+  .cover{
+    padding: 5rem;
+  }
   .cover-info{
     margin-top: 10rem;
   }
@@ -505,33 +407,16 @@ input[type="search"] {
     font-size: 1rem;
   } 
 
-  .product-info-container, .product-info-title{
-    padding: 10px 10px;
-  }
   #contact-info-container{
     padding: 10px 10px;
   }
 
+  .news-form{
+    margin: 2px auto;
+    width: 300px;
+  }
+  .news-form input[type="search"] {
+   width: 50%;
+  }
+  
 }
-.page-footer{
-  text-align: center;
-  padding: 20px;
-
-}
-/* .footer-copyright{
-  text-align: center;
-  padding: 20px;
-} */
-
-/* .list-inline-item{
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
-} */
-/* .details{
-  font-size: 13px;
-  line-height: 1.8;
-  padding-top: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
-} */
