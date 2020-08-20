@@ -372,7 +372,7 @@ input[type="search"] {
   }
   .contact-details-container {
     flex-direction: column;
-    margin-left: 160px;
+    align-items: center;
     font-size: 1rem;
 
   }
@@ -381,6 +381,8 @@ input[type="search"] {
     margin-bottom: 5px;
     line-height: 40px;
   }
+
+
 
   .contact-info-title h1 {
     margin-bottom: 5px;
