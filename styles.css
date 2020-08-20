@@ -406,10 +406,25 @@ input[type="search"] {
     background: none;
     font-size: 1rem;
   } 
+  #home-info
+  .info-content p{
+    font-size: 1rem;
+  }
+
+  #home-info
+  .info-content {
+    padding-top: 2rem ;
+  }
 
   #contact-info-container{
     padding: 10px 10px;
+
   }
+  .contact-details-container{
+   margin-left: 125px;
+
+  }
+
 
   .news-form{
     margin: 2px auto;
